@@ -1,0 +1,17 @@
+{
+  "name": "adgenius-backend",
+  "version": "1.0.0",
+  "description": "Express backend that connects to a local MCP server",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "@modelcontextprotocol/sdk": "^1.20.2",
+    "body-parser": "^1.20.2",
+    "dotenv": "^17.2.3",
+    "express": "^4.18.2"
+  }
+}
